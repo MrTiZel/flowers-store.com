@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-background: #fff;
+    --main-color: #282C2F;
+    --main-font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: var(--main-background);
+    color: var(--main-color);
+    font-size: var(--main-font-size);
+}
+
+a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.button-buy {
+    background: var(--main-color);
+    color: #fff;
+    padding: 20px 65px;
+    border-radius: 30px;
+    cursor: pointer;
+}
