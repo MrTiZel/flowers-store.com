@@ -35,3 +35,9 @@
 .bestseller__p {
     color: #737373;
 }
+
+@media (max-width: 800px) {
+    .bestseller__blocks {
+        flex-wrap: wrap;
+    }
+}
