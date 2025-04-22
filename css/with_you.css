@@ -1,0 +1,15 @@
+.separator2 {
+    background: url(/img/bg_wb2.png) repeat-x left;
+    height: 182px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.separator__palka2 {
+    display: block;
+    border-left: 2px solid #000;
+    height: 182px;
+}
