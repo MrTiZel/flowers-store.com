@@ -59,7 +59,7 @@
 
 .handcrafted {
     background: #e1eaf4;
-    padding: 50px 0;
+    padding: 50px 0 120px 0;
     display: flex;
     flex-direction: column;
     gap: 50px;
