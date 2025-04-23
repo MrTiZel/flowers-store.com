@@ -6,6 +6,11 @@
     padding: 90px 80px;
 }
 
+.contact-wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
 .contact__blocks-left {
     display: flex;
     flex-direction: row;
