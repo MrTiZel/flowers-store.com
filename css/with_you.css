@@ -80,3 +80,43 @@
         padding: 50px 20px;
     }
 }
+
+.insta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 80px;
+}
+
+.insta__h2 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.insta__img {
+    width: 100%;
+}
+
+@media (max-width:1000px) {
+    .insta {
+        padding: 80px 20px;
+        gap: 40px;
+    }
+
+    .insta__h2 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width:500px) {
+    .insta {
+        padding: 40px 20px;
+        gap: 20px;
+    }
+
+    .insta__h2 {
+        font-size: 28px;
+    }
+}

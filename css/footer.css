@@ -1,0 +1,35 @@
+.foot {
+    background: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding: 70px 80px;
+}
+
+.foot__cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    color: white;
+}
+
+.foot__logo {
+    align-self: center;
+}
+
+@media (max-width: 1000px) {
+    .foot {
+        gap: 50px;
+        padding: 70px 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .foot {
+        gap: 30px;
+        padding: 50px 20px;
+    }
+}
